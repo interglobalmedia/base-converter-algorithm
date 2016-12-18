@@ -8,7 +8,6 @@ function Stack() {
         return items.pop();
     };
     this.peek = function() {
-        // can obtain the last item from an array using length - 1
         return items[items.length - 1];
     };
     this.isEmpty = function() {
@@ -34,7 +33,7 @@ function baseConverter(decNumber, base) {
     while (decNumber > 0) {
         rem = Math.floor(decNumber % base);
         remStack.push(rem);
-        decNumber Math.floor(decNumber / base);
+        decNumber = Math.floor(decNumber / base);
     }
     while (!remStack.isEmpty()) {
         baseString += digits[remStack.pop()];
