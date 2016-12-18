@@ -107,6 +107,6 @@ n = 8
 1/16 === 0 rem === 1
 ```
 
-To learn more about how the code for the algorithm works, please visit my repository entitled Decimal to Binary Algorithm:
+To learn more about how the code for the algorithm works, please visit my repository entitled **Decimal to Binary Algorithm**:
 
 https://github.com/interglobalmedia/decimal-to-binary-algorithm
