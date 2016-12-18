@@ -2,7 +2,7 @@
 
 ##The algorithm:
 
-we can easily modify the divideBy2 algorithm to make it work as a converter from decimal to any base. Instead of dividing the decimal number by 2, we can pass the desired base as an argument to the method and use it in the divisions instead of the number 2:
+We can easily modify the divideBy2 algorithm to make it work as a converter from decimal to any base. Instead of dividing the decimal number by 2, we can pass the desired base as an argument to the method and use it in the divisions instead of the number 2:
 
 ```javascript
 function baseConverter(decNumber, base) {
